@@ -68,4 +68,6 @@ source "vsphere-iso" "vsphere-iso-source" {
     "./scripts/install-vm-tools.cmd",
     "./scripts/set-temp.ps1"
   ]
+
+  usb_controller = ["xhci"]
 }
