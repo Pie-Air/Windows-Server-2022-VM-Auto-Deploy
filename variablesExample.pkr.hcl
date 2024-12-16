@@ -1,0 +1,11 @@
+vsphere_server       = "192.168.1.1"
+vsphere_user         = "administrator"
+vsphere_password     = "ExamplePass123!"
+vsphere_datastore    = "ExampleDS"
+vsphere_network      = "ExampleNetwork"
+vm_name              = "ExampleVM"
+vm_cpu_num           = 4
+vm_mem_size          = 8192
+vm_disk_size         = 51200
+winadmin_password    = "Admin123!"
+os_iso_path          = "[ExampleDS] ISO/ExampleOS.iso"
